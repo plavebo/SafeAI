@@ -28,5 +28,12 @@ This project utilizes the state-of-the-art face analysis toolbox, **InsightFace*
     year={2020}
   }
 
-## Usage
+## 1:N Face Recognition
+This project performs 1:N face recognition using a FAISS database built with the ArcFace algorithm.
+
+## File Descrition
+### Crawling.ipynb
+데이터셋 속 한국 연예인 이미지를 크롤링할 때 사용한 파일입니다.
+### FR_w_FAISS
+
 
