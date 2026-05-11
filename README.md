@@ -31,9 +31,40 @@ This project utilizes the state-of-the-art face analysis toolbox, **InsightFace*
 ## 1:N Face Recognition
 This project performs 1:N face recognition using a FAISS database built with the ArcFace algorithm.
 
-## File Descrition
+## File Description
+
 ### Crawling.ipynb
-데이터셋 속 한국 연예인 이미지를 크롤링할 때 사용한 파일입니다.
-### FR_w_FAISS
+This file was used to crawl images of Korean celebrities for the dataset.
 
+### FR_w_FAISS.ipynb
+This file contains the code for building and utilizing the FAISS database, determining the enrollment set size and threshold, and evaluating performance metrics.
 
+### DB_Enrollment.ipynb
+This code allows you to build a FAISS database using your own custom image dataset.
+
+### face_detection
+This code aligns faces and resizes images to 112x112 pixels using the InsightFace face detection library.
+
+### rename_dedup.ipynb
+This file contains code for refining and deduplicating the crawled image data.
+
+### Dataset_Collection.ipynb
+This code collects the MS1MV3 and Korean celebrity datasets used to construct the overall dataset, and splits them into the enrollment set and the attack set.
+
+### Dataset.zip
+This is the dataset used for FAISS database construction and model validation. The directory structure is as follows:
+
+---
+
+## Dataset
+Please download and use Dataset.zip.
+
+---
+
+## Model
+This project utilizes the IResNet architecture and ArcFace loss function code provided by InsightFace.
+
+---
+
+## Usage
+For recognizing specific images, please refer to the FaceRecognition folder.
