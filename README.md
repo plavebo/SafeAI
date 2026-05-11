@@ -27,5 +27,6 @@ This project utilizes the state-of-the-art face analysis toolbox, **InsightFace*
     booktitle={Proceedings of the IEEE Conference on European Conference on Computer Vision},
     year={2020}
   }
-  
-  }
+
+## Usage
+
