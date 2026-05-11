@@ -48,10 +48,10 @@ This code aligns faces and resizes images to 112x112 pixels using the InsightFac
 ### rename_dedup.ipynb
 This file contains code for refining and deduplicating the crawled image data.
 
-### Dataset_Collection.ipynb
+### 데이터_수집.ipynb
 This code collects the MS1MV3 and Korean celebrity datasets used to construct the overall dataset, and splits them into the enrollment set and the attack set.
 
-### Dataset.zip
+### 데이터셋.zip
 This is the dataset used for FAISS database construction and model validation. The directory structure is as follows:
 
 ---
