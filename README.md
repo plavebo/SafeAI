@@ -57,9 +57,43 @@ This is the dataset used for FAISS database construction and model validation. T
 ---
 
 ## Dataset
-Please download and use Dataset.zip.
+Please download and use 데이터셋.zip.
+### Directory structure
+📂 데이터셋/
+ ├── 📁 ms1mv3/                           # MS1MV3 글로벌 데이터셋 루트
+ │    ├── 📁 identity_0001/               # 원본 인물 폴더 1 (안에 원본 이미지들)
+ │    │    ├── 🖼️ 0000.jpg
+ │    │    └── 🖼️ 0001.jpg
+ │    ├── 📁 identity_0002/               # 원본 인물 폴더 2 ...
+ │    │    └── 🖼️ 0000.jpg
+ │    │
+ │    ├── 📁 ms1mv3_Enrollment/           # FAISS DB 지문 등록용 분할 폴더
+ │    │    ├── 📁 identity_0001/          # 등록용 인물 폴더 1 (앞의 N장)
+ │    │    │    └── 🖼️ 0000.jpg
+ │    │    └── 📁 identity_0002/          # 등록용 인물 폴더 2 ...
+ │    │
+ │    └── 📁 ms1mv3_Attack/               # 1:N 식별 성능 검증용 분할 폴더 (나머지 사진들)
+ │         ├── 📁 identity_0001/          # 검증용 인물 폴더 1
+ │         │    └── 🖼️ 0002.jpg
+ │         └── 📁 identity_0002/          # 검증용 인물 폴더 2 ...
+ │
+ └── 📁 한국 연예인_전처리/                  # 한국인 타겟 데이터셋 루트
+      ├── 📁 celebrity_A/                 # 원본 인물 폴더 A (예: 김고은 원본 이미지들)
+      │    ├── 🖼️ celebrity_A_정면_1_face_0.jpg
+      │    └── 🖼️ celebrity_A_옆모습_1_face_0.jpg
+      ├── 📁 celebrity_B/                 # 원본 인물 폴더 B (예: 류진 원본 이미지들) ...
+      │    └── 🖼️ celebrity_B_정면_1_face_0.jpg
+      │
+      ├── 📁 한국연예인_Enrollment/          # FAISS DB 지문 등록용 분할 폴더
+      │    ├── 📁 celebrity_A/            # 등록용 인물 폴더 A (앞의 N장)
+      │    │    └── 🖼️ celebrity_A_옆모습_1_face_0.jpg
+      │    └── 📁 celebrity_B/            # 등록용 인물 폴더 B ...
+      │
+      └── 📁 한국연예인_Attack/              # 1:N 식별 성능 검증용 분할 폴더 (나머지 사진들)
+           ├── 📁 celebrity_A/            # 검증용 인물 폴더 A
+           │    └── 🖼️ celebrity_A_정면_4_face_0.jpg
+           └── 📁 celebrity_B/            # 검증용 인물 폴더 B ...
 
----
 
 ## Model
 This project utilizes the IResNet architecture and ArcFace loss function code provided by InsightFace.
