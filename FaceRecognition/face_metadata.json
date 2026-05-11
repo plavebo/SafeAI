@@ -1,0 +1,282 @@
+{
+  "0": {
+    "name": "김고은",
+    "group": "korean"
+  },
+  "1": {
+    "name": "나재민",
+    "group": "korean"
+  },
+  "2": {
+    "name": "남궁민",
+    "group": "korean"
+  },
+  "3": {
+    "name": "류진",
+    "group": "korean"
+  },
+  "4": {
+    "name": "마동석",
+    "group": "korean"
+  },
+  "5": {
+    "name": "박보검",
+    "group": "korean"
+  },
+  "6": {
+    "name": "박지훈",
+    "group": "korean"
+  },
+  "7": {
+    "name": "뷔",
+    "group": "korean"
+  },
+  "8": {
+    "name": "비투비 이민혁",
+    "group": "korean"
+  },
+  "9": {
+    "name": "설윤",
+    "group": "korean"
+  },
+  "10": {
+    "name": "손석구",
+    "group": "korean"
+  },
+  "11": {
+    "name": "송강호",
+    "group": "korean"
+  },
+  "12": {
+    "name": "수지",
+    "group": "korean"
+  },
+  "13": {
+    "name": "이영애",
+    "group": "korean"
+  },
+  "14": {
+    "name": "이효리",
+    "group": "korean"
+  },
+  "15": {
+    "name": "장원영",
+    "group": "korean"
+  },
+  "16": {
+    "name": "카리나",
+    "group": "korean"
+  },
+  "17": {
+    "name": "투바투 수빈",
+    "group": "korean"
+  },
+  "18": {
+    "name": "한소희",
+    "group": "korean"
+  },
+  "19": {
+    "name": "현아",
+    "group": "korean"
+  },
+  "20": {
+    "name": "identity_0000883",
+    "group": "western"
+  },
+  "21": {
+    "name": "identity_0003968",
+    "group": "western"
+  },
+  "22": {
+    "name": "identity_0004627",
+    "group": "western"
+  },
+  "23": {
+    "name": "identity_0005354",
+    "group": "western"
+  },
+  "24": {
+    "name": "identity_0005757",
+    "group": "western"
+  },
+  "25": {
+    "name": "identity_0008192",
+    "group": "western"
+  },
+  "26": {
+    "name": "identity_0008721",
+    "group": "western"
+  },
+  "27": {
+    "name": "identity_0013050",
+    "group": "western"
+  },
+  "28": {
+    "name": "identity_0014983",
+    "group": "western"
+  },
+  "29": {
+    "name": "identity_0015122",
+    "group": "western"
+  },
+  "30": {
+    "name": "identity_0016492",
+    "group": "western"
+  },
+  "31": {
+    "name": "identity_0017251",
+    "group": "western"
+  },
+  "32": {
+    "name": "identity_0017348",
+    "group": "western"
+  },
+  "33": {
+    "name": "identity_0017846",
+    "group": "western"
+  },
+  "34": {
+    "name": "identity_0018601",
+    "group": "western"
+  },
+  "35": {
+    "name": "identity_0018643",
+    "group": "western"
+  },
+  "36": {
+    "name": "identity_0020209",
+    "group": "western"
+  },
+  "37": {
+    "name": "identity_0022522",
+    "group": "western"
+  },
+  "38": {
+    "name": "identity_0025069",
+    "group": "western"
+  },
+  "39": {
+    "name": "identity_0027191",
+    "group": "western"
+  },
+  "40": {
+    "name": "identity_0027974",
+    "group": "western"
+  },
+  "41": {
+    "name": "identity_0033987",
+    "group": "western"
+  },
+  "42": {
+    "name": "identity_0035240",
+    "group": "western"
+  },
+  "43": {
+    "name": "identity_0037985",
+    "group": "western"
+  },
+  "44": {
+    "name": "identity_0038598",
+    "group": "western"
+  },
+  "45": {
+    "name": "identity_0039045",
+    "group": "western"
+  },
+  "46": {
+    "name": "identity_0039519",
+    "group": "western"
+  },
+  "47": {
+    "name": "identity_0040449",
+    "group": "western"
+  },
+  "48": {
+    "name": "identity_0041362",
+    "group": "western"
+  },
+  "49": {
+    "name": "identity_0041390",
+    "group": "western"
+  },
+  "50": {
+    "name": "identity_0043617",
+    "group": "western"
+  },
+  "51": {
+    "name": "identity_0047225",
+    "group": "western"
+  },
+  "52": {
+    "name": "identity_0049006",
+    "group": "western"
+  },
+  "53": {
+    "name": "identity_0049484",
+    "group": "western"
+  },
+  "54": {
+    "name": "identity_0049522",
+    "group": "western"
+  },
+  "55": {
+    "name": "identity_0051520",
+    "group": "western"
+  },
+  "56": {
+    "name": "identity_0052202",
+    "group": "western"
+  },
+  "57": {
+    "name": "identity_0059567",
+    "group": "western"
+  },
+  "58": {
+    "name": "identity_0060182",
+    "group": "western"
+  },
+  "59": {
+    "name": "identity_0060784",
+    "group": "western"
+  },
+  "60": {
+    "name": "identity_0063597",
+    "group": "western"
+  },
+  "61": {
+    "name": "identity_0064107",
+    "group": "western"
+  },
+  "62": {
+    "name": "identity_0067114",
+    "group": "western"
+  },
+  "63": {
+    "name": "identity_0067321",
+    "group": "western"
+  },
+  "64": {
+    "name": "identity_0074100",
+    "group": "western"
+  },
+  "65": {
+    "name": "identity_0074678",
+    "group": "western"
+  },
+  "66": {
+    "name": "identity_0074848",
+    "group": "western"
+  },
+  "67": {
+    "name": "identity_0079652",
+    "group": "western"
+  },
+  "68": {
+    "name": "identity_0081322",
+    "group": "western"
+  },
+  "69": {
+    "name": "identity_0088874",
+    "group": "western"
+  }
+}
