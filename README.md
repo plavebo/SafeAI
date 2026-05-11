@@ -54,6 +54,9 @@ This code collects the MS1MV3 and Korean celebrity datasets used to construct th
 ### 데이터셋.zip
 This is the dataset used for FAISS database construction and model validation. The directory structure is as follows:
 
+### 한국 연예인.txt
+Target List for Image Crawling
+
 ---
 
 ## Dataset
