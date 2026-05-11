@@ -59,6 +59,7 @@ This is the dataset used for FAISS database construction and model validation. T
 ## Dataset
 Please download and use 데이터셋.zip.
 ### Directory structure
+```
 📂 데이터셋/
  ├── 📁 ms1mv3/                           # MS1MV3 글로벌 데이터셋 루트
  │    ├── 📁 identity_0001/               # 원본 인물 폴더 1 (안에 원본 이미지들)
@@ -93,7 +94,7 @@ Please download and use 데이터셋.zip.
            ├── 📁 celebrity_A/            # 검증용 인물 폴더 A
            │    └── 🖼️ celebrity_A_정면_4_face_0.jpg
            └── 📁 celebrity_B/            # 검증용 인물 폴더 B ...
-
+```
 
 ## Model
 This project utilizes the IResNet architecture and ArcFace loss function code provided by InsightFace.
